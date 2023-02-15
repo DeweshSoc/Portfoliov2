@@ -67,3 +67,74 @@ for(let i=0;i<shareDivs.length;i++){
     });
   })
 }
+
+
+const img = document.getElementById("header-pic");
+const nav = document.getElementsByTagName("nav")[0];
+const headerText = document.getElementById("header-text");
+
+const animateMainImg = anime.timeline({
+  duration: 500,
+  easing: "easeInOutSine",
+})
+.add({
+  targets: img,
+  scale: [0, 1],
+  skew:["5deg","0deg"],
+  translateX: [500, 0],
+})
+.add({
+  targets:headerText,
+  skew:["5deg","0deg"],
+  translateX: [-1000, 0]
+})
+.add({
+  targets:nav,
+  translateY:[-200,0]
+})
+
+// animateMainImg.add({
+//   delay: 1000,
+//   targets: headerText,
+//   duration: 700,
+//   easing: "easeInOutSine",
+// })
+// const animateMainText = anime.timeline({
+// });
+
+
+
+
+// const animateNav = anime({
+//   delay: 1000,
+//   targets: nav,
+//   duration: 700,
+//   translateY: [-200, 0],
+//   easing: "easeInOutSine",
+// });
+
+// window.addEventListener(
+//   "load",
+//   ()=>{
+//     anime({
+//       targets: img,
+//       duration: 900,
+//       scale: [0, 1],
+//       skew: ["5deg", "0deg"],
+//       translateX: [500, 0],
+//       easing: "easeInOutSine",
+//     }).finished.then(function(){
+//       anime({
+//         delay: 1000,
+//         targets: headerText,
+//         duration: 700,
+//         skew: ["5deg", "0deg"],
+//         translateX: [-1000, 0],
+//         easing: "easeInOutSine",
+//       });
+//     })
+//   }
+// );
+
+
+
