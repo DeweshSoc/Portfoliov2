@@ -523,7 +523,12 @@ section#skills{
     font-size: 2rem;
   }
 
-
+    .project-desc h2{
+      font-size: 1.2rem;
+    }
+    .project-desc p{
+      font-size: 0.7rem;
+    }
 }
 
 /* mobile-s design */
