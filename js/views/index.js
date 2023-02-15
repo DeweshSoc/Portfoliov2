@@ -50,7 +50,7 @@ for(let i=0;i<shareDivs.length;i++){
       targets: modal.firstElementChild,
       scale: [0, 1],
       skew: ["30deg", "0deg"],
-      duration: 200,
+      duration: 100,
       easing: "easeInOutSine",
     });
   })
@@ -59,7 +59,7 @@ for(let i=0;i<shareDivs.length;i++){
       targets: modal.firstElementChild,
       scale: [1, 0],
       skew: ["0deg", "30deg"],
-      duration: 200,
+      duration: 100,
       easing: "easeInOutSine",
       complete: function(anim){
         modal.classList.remove("modal-on");

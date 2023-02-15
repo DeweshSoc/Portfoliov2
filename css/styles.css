@@ -454,7 +454,11 @@ footer {
   }
 
   #project-header{
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  #contact h1{
+    font-size: 2.5rem;
   }
 }
 
@@ -511,6 +515,14 @@ section#skills{
 .footer-row .socials a{
   font-size: 1rem;
 }
+  #project-header{
+    font-size: 2rem;
+  }
+
+  #contact h1{
+    font-size: 2rem;
+  }
+
 
 }
 
@@ -535,11 +547,11 @@ section#skills{
   }
 
   #project-header{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   #contact h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .footer-row a{
