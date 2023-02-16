@@ -19,6 +19,8 @@ body::-webkit-scrollbar-thumb {
   background-color: #666b7a;
 }
 
+
+
 main {
   width: 73%;
   margin: auto;
@@ -418,6 +420,9 @@ footer {
   #header-pic {
     width: 50%;
   }
+  .modal-text{
+  font-size: 2rem;
+}
 }
 
 /* tab design */
@@ -460,6 +465,9 @@ footer {
   #contact h1{
     font-size: 2.5rem;
   }
+  .modal-text{
+  font-size: 1.5rem;
+}
 }
 
 /* mobile-L design */
@@ -529,6 +537,9 @@ section#skills{
     .project-desc p{
       font-size: 0.7rem;
     }
+    .modal-text{
+  font-size: 1.3rem;
+}
 }
 
 /* mobile-s design */
@@ -563,4 +574,7 @@ section#skills{
     font-size: 1.1rem;
   }
 
+  .modal-text{
+  font-size: 1rem;
+}
 }
