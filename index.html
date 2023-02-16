@@ -33,7 +33,15 @@
     <title>Document</title>
   </head>
   <body>
+    <div id="main-modal" class="my-modal hide">
+              <div class="overlay">
+                <div class="my-modal-body">
+                  <h3><i class="fa-regular fa-clock"></i> Sending message...</h3>
+                </div>
+              </div>
+            </div>
     <main>
+
       <div id="bg">
         <img src="img/pat.svg" alt="logo" />
       </div>
@@ -44,16 +52,20 @@
               <a href="#">deweshjha</a>
             </li>
             <li>
-              <i class="fa-brands fa-linkedin"></i>
+               <a href="https://www.linkedin.com/in/dewesh-jha/"><i class="fa-brands fa-linkedin"></i></a>
             </li>
             <li>
-              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/DeweshSoc"><i class="fa-brands fa-github"></i></a>
             </li>
             <li>
-              <i class="fa-brands fa-instagram"></i>
+              <a href="https://www.instagram.com/dewesh_soc/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
             </li>
             <li>
-              <i class="fa-solid fa-briefcase"></i>
+              <a href="#project">
+                <i class="fa-solid fa-briefcase"></i>
+              </a>
             </li>
           </ul>
         </nav>
@@ -160,8 +172,9 @@
               <div class="overlay">
                 <div class="my-modal-body">
                   <h3>Links</h3>
-                  <a href="#" target="_blank">Github</a>
-                  <a href="#" target="_blank">Project</a>
+                  <br>
+                  <a href="https://github.com/DeweshSoc/placMan" target="_blank">Github</a>
+                  <a href="https://placman.cyclic.app/home" target="_blank">Project</a>
                 </div>
               </div>
             </div>
@@ -185,8 +198,9 @@
               <div class="overlay">
                 <div class="my-modal-body">
                   <h3>Links</h3>
-                  <a href="#" target="_blank">Github</a>
-                  <a href="#" target="_blank">Project</a>
+                  <br>
+                  <a href="https://github.com/DeweshSoc/Snake-Game" target="_blank">Github</a>
+                  <a href="https://my-snake-game.cyclic.app/" target="_blank">Project</a>
                 </div>
               </div>
             </div>
@@ -212,8 +226,8 @@
               <div class="overlay">
                 <div class="my-modal-body">
                   <h3>Links</h3>
-                  <a href="#" target="_blank">Github</a>
-                  <a href="#" target="_blank">Project</a>
+                  <a href="https://github.com/DeweshSoc/cryptodash" target="_blank">Github</a>
+                  <!-- <a href="#" target="_blank">Projec</a> -->
                 </div>
               </div>
             </div>
@@ -237,8 +251,8 @@
               <div class="overlay">
                 <div class="my-modal-body">
                   <h3>Links</h3>
-                  <a href="#" target="_blank">Github</a>
-                  <a href="#" target="_blank">Project</a>
+                  <a href="https://github.com/DeweshSoc/blockcamp" target="_blank">Github</a>
+                  <a href="https://blockcamp.cyclic.app/" target="_blank">Project</a>
                 </div>
               </div>
             </div>
@@ -256,7 +270,7 @@
               </small>
             </div>
             <div class="col-md-5">
-              <form id="contact-form" action="/">
+              <form id="contact-form" action="/" enctype="multipart/form-data">
                 <input
                   class="form-inp"
                   placeholder="Name"
@@ -278,7 +292,8 @@
                   id="inp-msg"
                 ></textarea>
                 <div class="link-div">
-                  <a class="link" href="#">SEND MESSAGE</a>
+                  <!-- <input type="submit" class="link" value="SEND MESSAGE"> -->
+                  <a id="form-submit" class="link" href="javascript:void(0);">SEND MESSAGE</a>
                 </div>
               </form>
             </div>
@@ -324,5 +339,6 @@
     ></script>
     <script src="js/libs/anime.min.js"></script>
     <script src="js/views/index.js"></script>
+    <script src="js/controllers/handleForm.js"></script>
   </body>
 </html>

@@ -93,48 +93,6 @@ const animateMainImg = anime.timeline({
   translateY:[-200,0]
 })
 
-// animateMainImg.add({
-//   delay: 1000,
-//   targets: headerText,
-//   duration: 700,
-//   easing: "easeInOutSine",
-// })
-// const animateMainText = anime.timeline({
-// });
-
-
-
-
-// const animateNav = anime({
-//   delay: 1000,
-//   targets: nav,
-//   duration: 700,
-//   translateY: [-200, 0],
-//   easing: "easeInOutSine",
-// });
-
-// window.addEventListener(
-//   "load",
-//   ()=>{
-//     anime({
-//       targets: img,
-//       duration: 900,
-//       scale: [0, 1],
-//       skew: ["5deg", "0deg"],
-//       translateX: [500, 0],
-//       easing: "easeInOutSine",
-//     }).finished.then(function(){
-//       anime({
-//         delay: 1000,
-//         targets: headerText,
-//         duration: 700,
-//         skew: ["5deg", "0deg"],
-//         translateX: [-1000, 0],
-//         easing: "easeInOutSine",
-//       });
-//     })
-//   }
-// );
 
 
 
