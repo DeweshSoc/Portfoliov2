@@ -300,6 +300,10 @@ section#project {
   margin: 0 auto;
 }
 
+.my-modal .my-modal-body a{
+  margin-right: 1rem;
+}
+
 /* contact */
 
 section#contact {
